@@ -1,0 +1,12 @@
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\ClinicaVeterinariaApplication.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\controller\DuenioController.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\controller\MascotaController.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\dto\MascoDuenioDTO.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\model\Duenio.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\model\Mascota.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\repository\IDuenioRepository.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\repository\IMascotaRepository.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\service\DuenioService.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\service\IDuenioService.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\service\IMascotaService.java
+C:\Users\josef\Documents\Java\Todo Code\Spring Boot\clinica-veterinaria\clinica-veterinaria\src\main\java\com\example\clinica_veterinaria\service\MascotaService.java

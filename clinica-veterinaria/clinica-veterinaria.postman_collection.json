@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "41eab2b2-ef10-4a2c-b721-f8e5a2eaac1a",
+		"name": "clinica-veterinaria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32145542"
+	},
+	"item": [
+		{
+			"name": "Crear Dueño",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n     \"id_duenio\" : 2, \r\n     \"dni\": 40208835,\r\n     \"nombre\" : \"Josefina\",\r\n     \"apellido\" : \"Oller\",\r\n     \"celular\" : \"2804264624\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/duenio/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"duenio",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear mascota",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_mascota\" : 2,\r\n     \"nombre\" : \"Cala\",\r\n     \"especie\" : \"Perro\",\r\n     \"raza\": \"Calle\",\r\n     \"color\" : \"Negra\",\r\n     \"duenio\" : {\r\n         \"id_duenio\" : 2\r\n     }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/mascota/crear",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mascota",
+						"crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer Dueños",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/duenio/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"duenio",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer Mascotas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/mascota/traer",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mascota",
+						"traer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer Caniches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/mascota/traer-caniches",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mascota",
+						"traer-caniches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer MascostasDueños",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/mascota/traer-duenios",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mascota",
+						"traer-duenios"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
